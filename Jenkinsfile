@@ -3,7 +3,7 @@ pipeline {
     stages{
          stage ('Testing') {
              steps{
-                 sh '${WORKSPACE}/t1/test.sh'
+                 sh '${WORKSPACE} /test.sh'
              //sh('test.sh')
              }
            }
